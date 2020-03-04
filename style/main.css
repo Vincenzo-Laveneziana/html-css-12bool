@@ -18,6 +18,138 @@ h2{
 }
 
 
+/* Scacchiera */
+.scacchiera{
+  border: 1px solid black;
+  padding: 10px;
+  width: 800px;
+  margin: 50px auto;
+}
+
+.row > .col_1{
+  height: calc(800px / 12);
+}
+
+
+.row:nth-child(even) > [class^='col_']:nth-child(odd),
+.row:nth-child(odd) > [class^='col_']:nth-child(even) {
+  background-color: black;
+}
+
+.row:nth-child(even) > [class^='col_']:nth-child(even),
+.row:nth-child(odd) > [class^='col_']:nth-child(odd) {
+  background-color: white;
+}
+
+/* Mondrian */
+.mondrian{
+  padding: 5px;
+  width: 900px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.mondrian [class*='col_']{
+  border: 0;
+    border: 0.5px solid black;
+}
+
+[class*='mon_row'] [class*='col_']{
+
+}
+
+/* riga 1 */
+.mon_row1 > [class^='col_']{
+  height: 150px;
+}
+
+.mon_row1 :first-child,
+.mon_row1 :last-child{
+  background: yellow;
+}
+
+.mon_row1 :nth-child(2){
+  background: #1e178b;
+}
+
+.mon_row1 :nth-child(3){
+  background: white;
+}
+
+/* riga 2 */
+
+.mon_row2 > [class^='col_']{
+  height: 300px;
+  padding: 0;
+}
+
+.mon_row2 :first-child,
+.mon_row2 :last-child{
+  background: red;
+}
+
+.mon_row2 > [class^='col_'] > [class^='col_']{
+  height: 300px;
+  background: white;
+}
+
+.mon_row2 > [class^='col_3'] {
+  height: 150px;
+}
+
+.mon_row2 :nth-child(3){
+  background: #1e178b;
+}
+
+/* riga 3 */
+
+.mon_row3 > [class^='col_']{
+  height: 250px;
+  padding: 0;
+}
+
+.mon_row3 > .col_4{
+  background: white;
+}
+
+.mon_row3 > .col_5 > [class^='col_']{
+  height: 125px;
+}
+
+.mon_row3 .col_5 :first-child{
+  background: black;
+}
+
+.mon_row3 .col_5 :nth-child(2){
+  background: red;
+}
+
+.mon_row3 .col_5 :nth-child(3){
+  background: #1e178b;
+}
+
+.mon_row3 .col_3{
+  height: 125px;
+}
+
+.mon_row3 :nth-child(3){
+  background: #1e178b;
+}
+
+.mon_row3 :nth-child(4){
+  background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

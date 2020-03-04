@@ -22,6 +22,7 @@
   text-align: center;
 }
 
+
 /* columns dimension */
 .col_1{
   width: calc(100% / 12);
