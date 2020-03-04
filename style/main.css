@@ -10,10 +10,11 @@ h2{
   margin-bottom: 20px;
 }
 
-.prova_1{
+.grid,
+.nesting,
+.margin{
   margin: 20px 0;
   background: lightgrey;
-  padding: 50px;
 }
 
 

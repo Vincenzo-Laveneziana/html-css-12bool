@@ -16,7 +16,7 @@
 /* Columns Style*/
 [class^="col_"]{
   float: left;
-  padding: 15px;
+  padding: 10px;
   background: pink;
   border: 0.5px solid black;
   text-align: center;
@@ -25,6 +25,8 @@
 /* columns dimension */
 .col_1{
   width: calc(100% / 12);
+  /* creare un quadrato */
+  /* height: calc(1200px / 12); */
 }
 
 .col_2{
@@ -71,6 +73,94 @@
 .col_12{
   width: 100%;
 }
+
+/* Offeset */
+
+.offset_1{
+  margin-left: calc(100% / 2);
+}
+
+.offset_1_5{
+  margin-left: calc((100% / 2) * 1.5);
+}
+
+.offset_2{
+  margin-left: calc((100% / 12) * 2);
+}
+
+.offset_2_5{
+  margin-left: calc((100% / 12) * 2.5);
+}
+
+.offset_3{
+  margin-left: calc((100% / 12) * 3);
+}
+
+.offset_3_5{
+  margin-left: calc((100% / 12) * 3.5);
+}
+
+.offset_4{
+  margin-left: calc((100% / 12) * 4);
+}
+
+.offset_4_5{
+  margin-left: calc((100% / 12) * 4.5);
+}
+
+.offset_5{
+  margin-left: calc((100% / 12) * 5);
+}
+
+.offset_5_5{
+  margin-left: calc((100% / 12) * 5.5);
+}
+
+.offset_6{
+  margin-left: calc((100% / 12) * 6);
+}
+
+.offset_6_5{
+  margin-left: calc((100% / 12) * 6.5);
+}
+
+.offset_7{
+  margin-left: calc((100% / 12) * 7);
+}
+
+.offset_7_5{
+  margin-left: calc((100% / 12) * 7.5);
+}
+
+.offset_8{
+  margin-left: calc((100% / 12) * 8);
+}
+
+.offset_8_5{
+  margin-left: calc((100% / 12) * 8.5);
+}
+
+.offset_9{
+  margin-left: calc((100% / 12) * 9);
+}
+
+.offset_9_5{
+  margin-left: calc((100% / 12) * 9.5);
+}
+
+.offset_10{
+  margin-left: calc((100% / 12) * 10);
+}
+
+.offset_10_5{
+  margin-left: calc((100% / 12) * 10.5);
+}
+
+.offset_11{
+  margin-left: calc((100% / 12) * 11);
+}
+
+
 
 
 
