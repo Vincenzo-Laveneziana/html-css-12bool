@@ -75,13 +75,16 @@
 }
 
 /* Offeset */
+.offset_0_5{
+  margin-left: calc((100% / 12) * 0.5);
+}
 
 .offset_1{
-  margin-left: calc(100% / 2);
+  margin-left: calc(100% / 12);
 }
 
 .offset_1_5{
-  margin-left: calc((100% / 2) * 1.5);
+  margin-left: calc((100% / 12) * 1.5);
 }
 
 .offset_2{
